@@ -1,0 +1,10 @@
+@media(min-width: 979px){
+	.topics{
+		float: right;
+		width: 20%;
+		text-align: left;
+	}
+	.notes{
+		width: 80%;
+	}
+}

@@ -1,0 +1,50 @@
+*{
+	text-align: justify;
+}
+
+body{
+	background-color: cornsilk;
+}
+
+.nav-list li{
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+	font-size: 1.5em;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.mybar{
+	margin: 0px;
+	padding: 1px 0px 1px;
+}
+
+.title-element{
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Arial;
+}
+
+a{
+	color: red;
+}
+
+a:hover{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	color: green;
+}
+
+.contents{
+	float: left;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	background-color: #0f0f0f;
+	color: #70ff70;
+	font-size: 0.7em;
+}
