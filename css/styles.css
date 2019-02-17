@@ -1,6 +1,11 @@
 *{
 	text-align: justify;
-	font-size: 30px;
+}
+
+@media(max-width:967px){
+	*{
+		font-size:30px;
+	}
 }
 
 body{
