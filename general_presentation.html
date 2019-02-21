@@ -2,20 +2,17 @@
 <html>
 <head>
 	<title>What is a computer?</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/article-styles.css">
+	<link rel="icon" href="images/logo.jpg">
+
+	<script type="text/javascript" src="js/styling.js"></script>
 </head>
-<body>
-	<nav class="navbar mybar">
-		<img src="images/logo.jpg" align="left" class="nav-element">
-		<ol class="nav-list">
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="">ABOUT GGS</a></li>
-			<li><a href="">ABOUT SITE</a></li>
-		</ol>
-	</nav>
+<body onload="loadHeader(); loadFooter()">
+	<span class="header"></span>
 	<div class="container-fluid">
 		<h2 class="title-element">General presentation of the computer and its components</h2>
 		<div class="topics">
@@ -42,7 +39,7 @@
 			</section>
 			<section id="parts">
 				<h4>Components of a Computer</h4>
-				<p>The various components of a computer can be divided into two major groups: software and hardware. Hardware refers to the physical parts which make up the computer and which the user can directly manipulate. Software on the other hand are programs or set of programs in the computer which control to hardware and permit the user to perform tasks with the computer. This section is particularly dedicated to the hardware components. The software components are viewed in a different lesson.</p>
+				<p>The various components of a computer can be divided into two major groups: software and hardware. Hardware refers to the physical parts which make up the computer and which the user can directly manipulate. They are basically the parts which we can see and touch. Software on the other hand are programs or set of programs in the computer which control to hardware and permit the user to perform tasks with the computer. This section is particularly dedicated to the hardware components. The software components are viewed in a different lesson.</p>
 				<p>Hardware components of a computer can be divided into three major groups. These include<b>input devices, processing devices and output devices.</b> Below are the various hardware components presented according to their respective groups.</p>
 				<dl>
 					<dt>Input devices</dt>
@@ -67,7 +64,7 @@
 							<li>
 								<h5>Scanner</h5>
 								<img src="images/scan.jpeg" alt="SCAN" width="100" height="50" align="left">
-								<p>A scanner is used to create a digital image of a printed image or document. It permits us to directly create digital documents from already printed ones.</p>
+								<p>A scanner is used to create a digital image of a printed image or document. It permits us to directly create digital documents from already printed ones. It functions like a digital camera creating softcopies of images immediately. It should be noted that some scanners have the ability to create a text document from the scanned file as they are equipped with tools to recognize the printed characters.</p>
 							</li>
 							<li>
 								<h5>Touch screen</h5>
@@ -123,8 +120,6 @@
 		</div>
 	</div>
 	<hr>
-	<div>
-		<footer>&copy; Brought to you by <b>God's Grace Softwares</b><br>All feedback and suggestions for improvement should be channelled to <b>godsgracesoftwares@gmail.com</b></footer>
-	</div>
+	<span class="footer"></span>
 </body>
 </html>

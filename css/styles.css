@@ -2,14 +2,17 @@
 	text-align: justify;
 }
 
-@media(max-width:967px){
-	*{
-		font-size:30px;
-	}
-}
 
 body{
 	background-color: cornsilk;
+}
+
+.nav-list{
+	padding-left: 5px;
+}
+.mybar img{
+	width: 200px;
+	height: 150px
 }
 
 .nav-list li{
@@ -24,6 +27,7 @@ body{
 .mybar{
 	margin: 0px;
 	padding: 1px 0px 1px;
+	flex-wrap: nowrap;
 }
 
 .title-element{
@@ -49,4 +53,16 @@ footer{
 	background-color: #0f0f0f;
 	color: #70ff70;
 	font-size: 0.7em;
+}
+
+
+@media(max-width: 700px){
+	.nav-list li{
+		font-size: 1em;
+	}
+
+	.mybar img{
+		width: 100px;
+		height: 100px
+	}
 }
