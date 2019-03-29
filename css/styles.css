@@ -1,68 +1,110 @@
 *{
-	text-align: justify;
+    box-sizing: border-box;
 }
-
 
 body{
-	background-color: cornsilk;
-}
-
-.nav-list{
-	padding-left: 5px;
-}
-.mybar img{
-	width: 200px;
-	height: 150px
-}
-
-.nav-list li{
-	float: left;
-	list-style: none;
-	padding-right: 10px;
-	font-size: 1.5em;
-	text-decoration: underline;
-	text-decoration-style: dashed;
-}
-
-.mybar{
-	margin: 0px;
-	padding: 1px 0px 1px;
-	flex-wrap: nowrap;
-}
-
-.title-element{
-	font-size: 1.5em;
-	text-align: center;
-	text-decoration: underline;
-	font-family: Arial;
+    font-size: 20px;
 }
 
 a{
-	color: red;
+    color: #af4f4f;
+    text-decoration: underline;
+    text-decoration-style:dashed;
 }
 
 a:hover{
-	text-decoration: underline;
-	text-decoration-style: dashed;
-	color: green;
+    color: #ff5080;
+    text-decoration: none;
 }
 
-footer{
-	text-align: center;
-	clear: both;
-	background-color: #0f0f0f;
-	color: #70ff70;
-	font-size: 0.7em;
+a:visited{
+    color: #af4f4f;
+}
+
+.mybar{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mybar img{
+    border: 2px solid #2e2e2e;
+}
+
+.nav-list{
+    list-style: none;
+    float: right;
+    margin-left: 10px;
+}
+
+.nav-list li{
+    float: left;
+    margin: 10px;
+    font-size: 1.5em;
+    color: white;
 }
 
 
-@media(max-width: 700px){
-	.nav-list li{
-		font-size: 1em;
-	}
+.nav-list li>a{
+    color: white;
+    text-decoration: none;
+}
 
-	.mybar img{
-		width: 100px;
-		height: 100px
-	}
+.nav-list li>a:hover{
+    background-color: #bbbbbb;
+}
+
+
+#contents, #contents>ol,#contents a{
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+}
+
+#contents li{
+    list-style: none;
+    border: 2px;
+    margin: 0px 0px 3px 0px;
+    min-height: 80px;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+    width:100%;
+}
+
+.home-tile{
+    max-width: 300px;
+    max-height: 300px;
+    padding:15px;
+    border:5px solid #a0a0a0;
+    margin:30px;
+}
+
+.home-tile:hover{
+    transform: scale(1.1);
+}
+
+#home-area{
+    text-align: center;
+}
+
+#home-area div{
+    float: left;
+}
+
+.article div{
+    float: left;
+}
+
+.person{
+    height: 300px;
+    width:300px;
+    padding: 30px;
+    margin: 10px;
+    float: left;
 }
